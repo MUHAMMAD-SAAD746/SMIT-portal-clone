@@ -1,0 +1,60 @@
+.portion .div .bi-journal-text {
+    color: blue;
+    background-color: rgba(121, 184, 252, 0.333);
+}
+
+.portion .div .bi-journal-check {
+    color: rgb(255, 196, 0);
+    background-color: rgba(254, 217, 96, 0.259);
+}
+
+.portion .div .bi-check-circle {
+    background-color: rgba(133, 244, 133, 0.265);
+}
+
+.portion .div .red-cross {
+    background-color: rgba(255, 135, 135, 0.249);
+}
+
+main {
+    height: 100vh;
+}
+
+.col-3 {
+    text-align: left;
+}
+
+.submit {
+    background-color: #80b5ff42 !important;
+    color: rgb(4, 29, 129) !important;
+    border-color: #d8d8d8 !important;
+    padding: 2px !important;
+}
+
+.approve {
+    background-color: #73fdba3f !important;
+    border-color: #2c944d84 !important;
+    padding: 2px !important;
+}
+
+.bi-eye, .bi-upload {
+    margin: 0 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.grey {
+    color: rgb(134, 134, 134);
+}
+
+.table-heading {
+    background-color: #f3f7f7;
+}
+
+.row-data {
+    height: 70px;
+}
+
+.align-left {
+    text-align: right;
+}

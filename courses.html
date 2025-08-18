@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Clone</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="dashbrd.css">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0 800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <aside>
+        <div class="img">
+            <img src="./assets/logo.png" alt="SMIT logo">
+        </div>
+
+        <div class="links">
+            <a href="dashboard.html"><i class="bi bi-columns-gap"></i> dashboard</a>
+            <a href="courses.html" id="current"><i class="bi bi-book"></i> courses</a>
+            <a href="attendence.html"><i class="bi bi-calendar2-check"></i> attendance</a>
+            <a href="payment.html"><i class="bi bi-credit-card"></i> payment</a>
+            <a href="assignment.html"><i class="bi bi-file-earmark-text"></i> assignment</a>
+            <a href="quiz.html"><i class="bi bi-clipboard-check"></i> quiz</a>
+        </div>
+
+        <p id="user">muhammad s...<i class="bi bi-person-circle"></i></p>
+    </aside>
+    <main>
+        <div id="grid">
+            <h1>dashboard</h1>
+
+            <select id="drop-down" name="course">
+                <option value="" selected disabled>Filter by Status</option>
+                <option value="all">All</option>
+                <option value="enroll">Enroll</option>
+            </select>
+
+            <div class="portion active">
+                <div id="active-p1">
+                    <div id="enroll">
+                        <p id="course">web and mobile application development</p>
+                        <div id="enroll-btn">
+                            <p>enrolled</p>
+                        </div>
+                    </div>
+                    <p id="c1"><i class="bi bi-book"></i>WMA</p>
+                </div>
+
+                <div id="information">
+                    <p class="info i1"><span class="icon"><i class="bi bi-hash"></i></span>batch:<span>7</span></p>
+                    <p class="info i2"><span class="icon"><i class="bi bi-geo-alt"></i></span>campus:<span>autoban
+                            campus</span></p>
+                    <p class="info i3"><span class="icon"><i class="bi bi-award"></i></span>roll:<span>234567</span></p>
+                    <p class="info i4"><span class="icon"><i
+                                class="bi bi-geo-alt"></i></span>city:<span>hyderabad</span></p>
+                </div>
+            </div>
+
+            <div class="fixed-grey-box"></div>
+        </div>
+    </main>
+</body>
+
+</html>

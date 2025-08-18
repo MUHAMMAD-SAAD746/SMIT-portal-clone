@@ -1,0 +1,70 @@
+#grid .payment-info {
+    grid-row: 1;
+    grid-column: 1/5;
+    font-size: 16.5px;
+    padding: 15px;
+    line-height: 1.5;
+    background-color: #6abcfa12;
+    border: none;
+    color: #071ecc;
+    border-radius: 7px;
+}
+
+main {
+    height: 100vh;
+}
+
+.col-3 #present {
+    border-color: #e2e2e2;
+    background-color: #05c73f26;
+    padding: 5px 0;
+    width: 50px;
+}
+
+.col-3 #present p {
+    color: #08822c;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.col-3 {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.col-3 .blue-btn {
+    background-color: #4357ee;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.col-3 .blue-btn p {
+    color: white;
+    font-weight: normal;
+}
+
+table {
+    background-color: #f9f9f9;
+}
+
+.refresh {
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: end;
+    padding-right: 0;
+}
+
+.refresh .blue-btn {
+    padding: 10px 15px;
+    width: 100%;
+    justify-self: end;
+}
+
+.refresh .blue-btn i {
+    font-size: 14px;
+    margin-left: 10px;
+    transform: rotate(30deg);
+    display: inline-block;
+}
